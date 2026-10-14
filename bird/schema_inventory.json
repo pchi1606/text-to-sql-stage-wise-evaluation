@@ -1,0 +1,3508 @@
+{
+ "california_schools": {
+  "tables": {
+   "frpm": {
+    "column_index": {
+     "2013-14 CALPADS Fall 1 Certification Status": [
+      "1",
+      "14",
+      "2013",
+      "calpads",
+      "certification",
+      "fall",
+      "status"
+     ],
+     "Academic Year": [
+      "academic",
+      "year"
+     ],
+     "CDSCode": [
+      "cds",
+      "code"
+     ],
+     "Charter Funding Type": [
+      "charter",
+      "funding",
+      "type"
+     ],
+     "Charter School (Y/N)": [
+      "0",
+      "1",
+      "charter",
+      "n",
+      "school",
+      "y"
+     ],
+     "Charter School Number": [
+      "charter",
+      "number",
+      "school"
+     ],
+     "County Code": [
+      "code",
+      "county"
+     ],
+     "County Name": [
+      "code",
+      "county",
+      "name"
+     ],
+     "District Code": [
+      "code",
+      "district"
+     ],
+     "District Name": [
+      "district",
+      "name"
+     ],
+     "District Type": [
+      "district",
+      "type"
+     ],
+     "Educational Option Type": [
+      "educational",
+      "option",
+      "type"
+     ],
+     "Enrollment (Ages 5-17)": [
+      "17",
+      "5",
+      "ages",
+      "enrollment"
+     ],
+     "Enrollment (K-12)": [
+      "12",
+      "12nd",
+      "1st",
+      "enrollment",
+      "grade",
+      "k"
+     ],
+     "FRPM Count (Ages 5-17)": [
+      "17",
+      "5",
+      "ages",
+      "count",
+      "frpm"
+     ],
+     "FRPM Count (K-12)": [
+      "12",
+      "count",
+      "eligible",
+      "enrollment",
+      "free",
+      "frpm",
+      "k",
+      "meal",
+      "or",
+      "price",
+      "rate",
+      "reduced"
+     ],
+     "Free Meal Count (Ages 5-17)": [
+      "17",
+      "5",
+      "ages",
+      "count",
+      "eligible",
+      "enrollment",
+      "free",
+      "meal",
+      "rate"
+     ],
+     "Free Meal Count (K-12)": [
+      "12",
+      "count",
+      "eligible",
+      "enrollment",
+      "free",
+      "k",
+      "meal",
+      "rate"
+     ],
+     "High Grade": [
+      "grade",
+      "high"
+     ],
+     "IRC": [
+      "irc",
+      "not",
+      "useful"
+     ],
+     "Low Grade": [
+      "grade",
+      "low"
+     ],
+     "NSLP Provision Status": [
+      "nslp",
+      "provision",
+      "status"
+     ],
+     "Percent (%) Eligible FRPM (Ages 5-17)": [
+      "17",
+      "5",
+      "ages",
+      "eligible",
+      "frpm",
+      "percent"
+     ],
+     "Percent (%) Eligible FRPM (K-12)": [
+      "12",
+      "eligible",
+      "frpm",
+      "k",
+      "percent"
+     ],
+     "Percent (%) Eligible Free (Ages 5-17)": [
+      "17",
+      "5",
+      "ages",
+      "eligible",
+      "free",
+      "percent"
+     ],
+     "Percent (%) Eligible Free (K-12)": [
+      "12",
+      "eligible",
+      "free",
+      "k",
+      "percent"
+     ],
+     "School Code": [
+      "code",
+      "school"
+     ],
+     "School Name": [
+      "name",
+      "school"
+     ],
+     "School Type": [
+      "school",
+      "type"
+     ]
+    },
+    "columns": [
+     {
+      "name": "CDSCode",
+      "type": "TEXT"
+     },
+     {
+      "name": "Academic Year",
+      "type": "TEXT"
+     },
+     {
+      "name": "County Code",
+      "type": "TEXT"
+     },
+     {
+      "name": "District Code",
+      "type": "INTEGER"
+     },
+     {
+      "name": "School Code",
+      "type": "TEXT"
+     },
+     {
+      "name": "County Name",
+      "type": "TEXT"
+     },
+     {
+      "name": "District Name",
+      "type": "TEXT"
+     },
+     {
+      "name": "School Name",
+      "type": "TEXT"
+     },
+     {
+      "name": "District Type",
+      "type": "TEXT"
+     },
+     {
+      "name": "School Type",
+      "type": "TEXT"
+     },
+     {
+      "name": "Educational Option Type",
+      "type": "TEXT"
+     },
+     {
+      "name": "NSLP Provision Status",
+      "type": "TEXT"
+     },
+     {
+      "name": "Charter School (Y/N)",
+      "type": "INTEGER"
+     },
+     {
+      "name": "Charter School Number",
+      "type": "TEXT"
+     },
+     {
+      "name": "Charter Funding Type",
+      "type": "TEXT"
+     },
+     {
+      "name": "IRC",
+      "type": "INTEGER"
+     },
+     {
+      "name": "Low Grade",
+      "type": "TEXT"
+     },
+     {
+      "name": "High Grade",
+      "type": "TEXT"
+     },
+     {
+      "name": "Enrollment (K-12)",
+      "type": "REAL"
+     },
+     {
+      "name": "Free Meal Count (K-12)",
+      "type": "REAL"
+     },
+     {
+      "name": "Percent (%) Eligible Free (K-12)",
+      "type": "REAL"
+     },
+     {
+      "name": "FRPM Count (K-12)",
+      "type": "REAL"
+     },
+     {
+      "name": "Percent (%) Eligible FRPM (K-12)",
+      "type": "REAL"
+     },
+     {
+      "name": "Enrollment (Ages 5-17)",
+      "type": "REAL"
+     },
+     {
+      "name": "Free Meal Count (Ages 5-17)",
+      "type": "REAL"
+     },
+     {
+      "name": "Percent (%) Eligible Free (Ages 5-17)",
+      "type": "REAL"
+     },
+     {
+      "name": "FRPM Count (Ages 5-17)",
+      "type": "REAL"
+     },
+     {
+      "name": "Percent (%) Eligible FRPM (Ages 5-17)",
+      "type": "REAL"
+     },
+     {
+      "name": "2013-14 CALPADS Fall 1 Certification Status",
+      "type": "INTEGER"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "CDSCode",
+      "ref_col": "CDSCode",
+      "ref_table": "schools"
+     }
+    ],
+    "name_tokens": [
+     "frpm"
+    ],
+    "pk": "CDSCode"
+   },
+   "satscores": {
+    "column_index": {
+     "AvgScrMath": [
+      "average",
+      "avg",
+      "in",
+      "math",
+      "scores",
+      "scr"
+     ],
+     "AvgScrRead": [
+      "average",
+      "avg",
+      "in",
+      "read",
+      "reading",
+      "scores",
+      "scr"
+     ],
+     "AvgScrWrite": [
+      "average",
+      "avg",
+      "in",
+      "scores",
+      "scr",
+      "write",
+      "writing"
+     ],
+     "NumGE1500": [
+      "1500",
+      "are",
+      "equal",
+      "excellence",
+      "ge1500",
+      "greater",
+      "num",
+      "number",
+      "of",
+      "or",
+      "rate",
+      "sat",
+      "scores",
+      "takers",
+      "takr",
+      "test",
+      "to",
+      "total",
+      "tst",
+      "whose"
+     ],
+     "NumTstTakr": [
+      "each",
+      "in",
+      "num",
+      "number",
+      "of",
+      "school",
+      "takers",
+      "takr",
+      "test",
+      "this",
+      "tst"
+     ],
+     "cds": [
+      "california",
+      "cds",
+      "department",
+      "schools"
+     ],
+     "cname": [
+      "cname",
+      "county",
+      "name"
+     ],
+     "dname": [
+      "district",
+      "dname",
+      "name",
+      "segment"
+     ],
+     "enroll12": [
+      "12nd",
+      "1st",
+      "enroll12",
+      "enrollment",
+      "grade"
+     ],
+     "rtype": [
+      "rtype",
+      "unuseful"
+     ],
+     "sname": [
+      "name",
+      "school",
+      "sname"
+     ]
+    },
+    "columns": [
+     {
+      "name": "cds",
+      "type": "TEXT"
+     },
+     {
+      "name": "rtype",
+      "type": "TEXT"
+     },
+     {
+      "name": "sname",
+      "type": "TEXT"
+     },
+     {
+      "name": "dname",
+      "type": "TEXT"
+     },
+     {
+      "name": "cname",
+      "type": "TEXT"
+     },
+     {
+      "name": "enroll12",
+      "type": "INTEGER"
+     },
+     {
+      "name": "NumTstTakr",
+      "type": "INTEGER"
+     },
+     {
+      "name": "AvgScrRead",
+      "type": "INTEGER"
+     },
+     {
+      "name": "AvgScrMath",
+      "type": "INTEGER"
+     },
+     {
+      "name": "AvgScrWrite",
+      "type": "INTEGER"
+     },
+     {
+      "name": "NumGE1500",
+      "type": "INTEGER"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "cds",
+      "ref_col": "CDSCode",
+      "ref_table": "schools"
+     }
+    ],
+    "name_tokens": [
+     "satscores"
+    ],
+    "pk": "cds"
+   },
+   "schools": {
+    "column_index": {
+     "AdmEmail1": [
+      "active",
+      "address",
+      "adm",
+      "administrator",
+      "and",
+      "applicable",
+      "display",
+      "districts",
+      "email",
+      "email1",
+      "if",
+      "information",
+      "only",
+      "or",
+      "pending",
+      "principal",
+      "s",
+      "schools",
+      "superintendent",
+      "the",
+      "will"
+     ],
+     "AdmEmail2": [
+      "adm",
+      "email2"
+     ],
+     "AdmEmail3": [
+      "adm",
+      "email3",
+      "not",
+      "useful"
+     ],
+     "AdmFName1": [
+      "active",
+      "adm",
+      "administrator",
+      "and",
+      "applicable",
+      "display",
+      "districts",
+      "f",
+      "first",
+      "if",
+      "information",
+      "name",
+      "name1",
+      "only",
+      "or",
+      "pending",
+      "principal",
+      "s",
+      "schools",
+      "superintendent",
+      "the",
+      "will"
+     ],
+     "AdmFName2": [
+      "1",
+      "adm",
+      "as",
+      "f",
+      "name2",
+      "same"
+     ],
+     "AdmFName3": [
+      "adm",
+      "f",
+      "name3",
+      "not",
+      "useful"
+     ],
+     "AdmLName1": [
+      "active",
+      "adm",
+      "administrator",
+      "and",
+      "applicable",
+      "display",
+      "districts",
+      "if",
+      "information",
+      "l",
+      "last",
+      "name",
+      "name1",
+      "only",
+      "or",
+      "pending",
+      "principal",
+      "s",
+      "schools",
+      "superintendent",
+      "the",
+      "will"
+     ],
+     "AdmLName2": [
+      "adm",
+      "l",
+      "name2"
+     ],
+     "AdmLName3": [
+      "adm",
+      "l",
+      "name3",
+      "not",
+      "useful"
+     ],
+     "CDSCode": [
+      "cds",
+      "code"
+     ],
+     "Charter": [
+      "0",
+      "1",
+      "a",
+      "as",
+      "charter",
+      "coded",
+      "field",
+      "follows",
+      "identifies",
+      "is",
+      "not",
+      "school",
+      "the",
+      "this"
+     ],
+     "CharterNum": [
+      "4",
+      "a",
+      "assigned",
+      "charter",
+      "digit",
+      "num",
+      "number",
+      "school",
+      "the",
+      "to"
+     ],
+     "City": [
+      "city"
+     ],
+     "ClosedDate": [
+      "closed",
+      "date",
+      "school",
+      "the"
+     ],
+     "County": [
+      "county",
+      "name"
+     ],
+     "DOC": [
+      "00",
+      "02",
+      "03",
+      "31",
+      "34",
+      "52",
+      "54",
+      "56",
+      "98",
+      "administrative",
+      "authority",
+      "been",
+      "benefit",
+      "board",
+      "california",
+      "category",
+      "center",
+      "charter",
+      "code",
+      "county",
+      "district",
+      "doc",
+      "education",
+      "elementary",
+      "has",
+      "high",
+      "identify",
+      "in",
+      "included",
+      "is",
+      "location",
+      "non",
+      "numeric",
+      "occupational",
+      "of",
+      "office",
+      "only",
+      "ownership",
+      "p",
+      "program",
+      "regional",
+      "roc",
+      "school",
+      "schools",
+      "special",
+      "state",
+      "statewide",
+      "the",
+      "to",
+      "unified",
+      "used"
+     ],
+     "DOCType": [
+      "above",
+      "category",
+      "code",
+      "description",
+      "district",
+      "doc",
+      "field",
+      "in",
+      "is",
+      "of",
+      "ownership",
+      "see",
+      "text",
+      "the",
+      "type",
+      "values"
+     ],
+     "District": [
+      "district"
+     ],
+     "EILCode": [
+      "a",
+      "adult",
+      "code",
+      "combination",
+      "description",
+      "educational",
+      "eil",
+      "elem",
+      "elementary",
+      "elemhigh",
+      "grade",
+      "high",
+      "hs",
+      "institution",
+      "instruction",
+      "intermediate",
+      "intmidjr",
+      "is",
+      "junior",
+      "level",
+      "middle",
+      "of",
+      "preschool",
+      "ps",
+      "range",
+      "relative",
+      "s",
+      "school",
+      "served",
+      "short",
+      "text",
+      "the",
+      "to",
+      "type",
+      "ug",
+      "ungraded"
+     ],
+     "EILName": [
+      "description",
+      "educational",
+      "eil",
+      "grade",
+      "institution",
+      "instruction",
+      "is",
+      "level",
+      "long",
+      "name",
+      "of",
+      "range",
+      "relative",
+      "s",
+      "served",
+      "text",
+      "the",
+      "to",
+      "type"
+     ],
+     "EdOpsCode": [
+      "a",
+      "alternative",
+      "altsoc",
+      "and",
+      "authority",
+      "choice",
+      "code",
+      "comm",
+      "commday",
+      "community",
+      "con",
+      "consortia",
+      "continuation",
+      "county",
+      "court",
+      "day",
+      "description",
+      "district",
+      "ed",
+      "education",
+      "home",
+      "homhos",
+      "hospital",
+      "is",
+      "juv",
+      "juvenile",
+      "occupational",
+      "of",
+      "offered",
+      "opp",
+      "opportunity",
+      "ops",
+      "option",
+      "program",
+      "regional",
+      "rop",
+      "school",
+      "short",
+      "spec",
+      "special",
+      "specon",
+      "sss",
+      "state",
+      "text",
+      "the",
+      "trad",
+      "traditional",
+      "type",
+      "youth",
+      "yth"
+     ],
+     "EdOpsName": [
+      "being",
+      "description",
+      "ed",
+      "education",
+      "educational",
+      "is",
+      "long",
+      "name",
+      "of",
+      "offered",
+      "ops",
+      "option",
+      "text",
+      "the",
+      "type"
+     ],
+     "Ext": [
+      "administrative",
+      "authority",
+      "district",
+      "ext",
+      "extension",
+      "number",
+      "of",
+      "or",
+      "phone",
+      "school",
+      "the"
+     ],
+     "FundingType": [
+      "are",
+      "as",
+      "california",
+      "charter",
+      "cs",
+      "directly",
+      "follows",
+      "funded",
+      "funding",
+      "in",
+      "indicates",
+      "locally",
+      "model",
+      "not",
+      "school",
+      "the",
+      "type",
+      "values"
+     ],
+     "GSoffered": [
+      "1",
+      "12",
+      "achievement",
+      "administrative",
+      "adult",
+      "and",
+      "as",
+      "authority",
+      "by",
+      "california",
+      "calpads",
+      "certified",
+      "collection",
+      "data",
+      "differ",
+      "display",
+      "district",
+      "example",
+      "fall",
+      "field",
+      "following",
+      "for",
+      "from",
+      "g",
+      "grade",
+      "highest",
+      "in",
+      "is",
+      "k",
+      "longitudinal",
+      "lowest",
+      "might",
+      "most",
+      "offered",
+      "or",
+      "p",
+      "pupil",
+      "recent",
+      "reported",
+      "school",
+      "served",
+      "soffered",
+      "span",
+      "sserved",
+      "supported",
+      "the",
+      "this",
+      "xyz"
+     ],
+     "GSserved": [
+      "1",
+      "12",
+      "2",
+      "alternative",
+      "and",
+      "as",
+      "at",
+      "calpads",
+      "certified",
+      "collection",
+      "data",
+      "differ",
+      "education",
+      "enrollment",
+      "exceed",
+      "fall",
+      "field",
+      "for",
+      "from",
+      "g",
+      "grade",
+      "highest",
+      "in",
+      "independent",
+      "is",
+      "it",
+      "k",
+      "lowest",
+      "may",
+      "most",
+      "note",
+      "of",
+      "offered",
+      "often",
+      "only",
+      "programs",
+      "recent",
+      "reported",
+      "schools",
+      "served",
+      "span",
+      "special",
+      "sserved",
+      "student",
+      "study",
+      "that",
+      "the",
+      "this",
+      "through",
+      "type",
+      "typical",
+      "will"
+     ],
+     "LastUpdate": [
+      "is",
+      "last",
+      "record",
+      "this",
+      "time",
+      "update",
+      "updated",
+      "when"
+     ],
+     "Latitude": [
+      "administrative",
+      "and",
+      "angular",
+      "authority",
+      "between",
+      "degrees",
+      "distance",
+      "district",
+      "equator",
+      "expressed",
+      "in",
+      "latitude",
+      "location",
+      "measured",
+      "north",
+      "of",
+      "or",
+      "school",
+      "south",
+      "the",
+      "to"
+     ],
+     "Longitude": [
+      "administrative",
+      "and",
+      "angular",
+      "authority",
+      "between",
+      "degrees",
+      "distance",
+      "district",
+      "east",
+      "england",
+      "expressed",
+      "from",
+      "greenwich",
+      "in",
+      "location",
+      "longitude",
+      "measured",
+      "meridian",
+      "of",
+      "or",
+      "prime",
+      "school",
+      "the",
+      "to",
+      "west"
+     ],
+     "Magnet": [
+      "0",
+      "1",
+      "a",
+      "adult",
+      "and",
+      "as",
+      "centers",
+      "coded",
+      "contain",
+      "do",
+      "does",
+      "education",
+      "field",
+      "follows",
+      "identifies",
+      "indicator",
+      "is",
+      "magnet",
+      "not",
+      "note",
+      "offer",
+      "offers",
+      "or",
+      "preschools",
+      "program",
+      "provides",
+      "school",
+      "the",
+      "this",
+      "whether"
+     ],
+     "MailCity": [
+      "a",
+      "address",
+      "administrative",
+      "associated",
+      "authority",
+      "cells",
+      "city",
+      "convenience",
+      "data",
+      "district",
+      "entities",
+      "filled",
+      "for",
+      "have",
+      "mail",
+      "mailing",
+      "many",
+      "not",
+      "note",
+      "of",
+      "or",
+      "provided",
+      "school",
+      "the",
+      "unpopulated",
+      "we",
+      "with",
+      "your"
+     ],
+     "MailState": [
+      "address",
+      "cells",
+      "convenience",
+      "data",
+      "filled",
+      "for",
+      "have",
+      "mail",
+      "mailing",
+      "state",
+      "the",
+      "unpopulated",
+      "we",
+      "with",
+      "within",
+      "your"
+     ],
+     "MailStrAbr": [
+      "a",
+      "abbreviated",
+      "abr",
+      "active",
+      "address",
+      "administrative",
+      "authority",
+      "cells",
+      "convenience",
+      "data",
+      "district",
+      "entities",
+      "filled",
+      "for",
+      "have",
+      "mail",
+      "mailing",
+      "many",
+      "not",
+      "note",
+      "of",
+      "or",
+      "provided",
+      "school",
+      "str",
+      "street",
+      "the",
+      "unpopulated",
+      "we",
+      "with",
+      "your"
+     ],
+     "MailStreet": [
+      "1",
+      "2",
+      "a",
+      "active",
+      "address",
+      "administrative",
+      "authority",
+      "cells",
+      "closed",
+      "convenience",
+      "data",
+      "district",
+      "entities",
+      "field",
+      "filled",
+      "for",
+      "have",
+      "in",
+      "mail",
+      "mailing",
+      "many",
+      "may",
+      "not",
+      "note",
+      "of",
+      "or",
+      "primarily",
+      "provided",
+      "retired",
+      "school",
+      "schools",
+      "some",
+      "street",
+      "the",
+      "this",
+      "unabbreviated",
+      "unpopulated",
+      "we",
+      "with",
+      "your"
+     ],
+     "MailZip": [
+      "a",
+      "address",
+      "administrative",
+      "associated",
+      "authority",
+      "cells",
+      "code",
+      "convenience",
+      "data",
+      "district",
+      "entities",
+      "filled",
+      "for",
+      "have",
+      "mail",
+      "mailing",
+      "many",
+      "not",
+      "note",
+      "of",
+      "or",
+      "provided",
+      "school",
+      "the",
+      "unpopulated",
+      "we",
+      "with",
+      "your",
+      "zip"
+     ],
+     "NCESDist": [
+      "2",
+      "5",
+      "7",
+      "a",
+      "and",
+      "center",
+      "combined",
+      "digit",
+      "digits",
+      "dist",
+      "district",
+      "each",
+      "educational",
+      "field",
+      "first",
+      "for",
+      "id",
+      "identification",
+      "identify",
+      "last",
+      "make",
+      "national",
+      "nces",
+      "number",
+      "represents",
+      "school",
+      "state",
+      "statistics",
+      "the",
+      "they",
+      "this",
+      "unique"
+     ],
+     "NCESSchool": [
+      "12",
+      "5",
+      "a",
+      "center",
+      "combined",
+      "digit",
+      "dist",
+      "each",
+      "educational",
+      "field",
+      "for",
+      "form",
+      "id",
+      "identification",
+      "national",
+      "nces",
+      "number",
+      "represents",
+      "school",
+      "statistics",
+      "the",
+      "this",
+      "unique",
+      "with"
+     ],
+     "OpenDate": [
+      "date",
+      "open",
+      "opened",
+      "school",
+      "the"
+     ],
+     "Phone": [
+      "phone"
+     ],
+     "SOC": [
+      "08",
+      "09",
+      "1",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "31",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "98",
+      "a",
+      "adult",
+      "alternative",
+      "authority",
+      "cea",
+      "center",
+      "centers",
+      "choice",
+      "code",
+      "community",
+      "continuation",
+      "county",
+      "court",
+      "day",
+      "district",
+      "education",
+      "elementary",
+      "facilities",
+      "high",
+      "identify",
+      "in",
+      "intermediate",
+      "is",
+      "junior",
+      "juvenile",
+      "k",
+      "middle",
+      "numeric",
+      "occupational",
+      "of",
+      "opportunity",
+      "or",
+      "other",
+      "ownership",
+      "p",
+      "preschool",
+      "program",
+      "programs",
+      "public",
+      "regional",
+      "roc",
+      "school",
+      "schools",
+      "soc",
+      "special",
+      "state",
+      "the",
+      "to",
+      "type",
+      "used",
+      "youth"
+     ],
+     "SOCType": [
+      "code",
+      "description",
+      "is",
+      "of",
+      "ownership",
+      "school",
+      "soc",
+      "text",
+      "the",
+      "type"
+     ],
+     "School": [
+      "school"
+     ],
+     "State": [
+      "state"
+     ],
+     "StatusType": [
+      "12",
+      "9",
+      "active",
+      "and",
+      "another",
+      "are",
+      "below",
+      "but",
+      "closed",
+      "combined",
+      "definitions",
+      "district",
+      "districts",
+      "field",
+      "for",
+      "has",
+      "identifies",
+      "in",
+      "instructional",
+      "is",
+      "listed",
+      "longer",
+      "merged",
+      "months",
+      "next",
+      "no",
+      "not",
+      "of",
+      "open",
+      "opened",
+      "operation",
+      "or",
+      "pending",
+      "plans",
+      "providing",
+      "services",
+      "status",
+      "the",
+      "this",
+      "to",
+      "type",
+      "types",
+      "valid",
+      "with",
+      "within",
+      "yet"
+     ],
+     "Street": [
+      "street"
+     ],
+     "StreetAbr": [
+      "abbreviated",
+      "abr",
+      "address",
+      "administrative",
+      "authority",
+      "closed",
+      "data",
+      "district",
+      "field",
+      "have",
+      "in",
+      "location",
+      "may",
+      "not",
+      "note",
+      "of",
+      "or",
+      "physical",
+      "primarily",
+      "records",
+      "retired",
+      "s",
+      "school",
+      "schools",
+      "some",
+      "street",
+      "the",
+      "this"
+     ],
+     "Virtual": [
+      "17",
+      "2016",
+      "a",
+      "all",
+      "among",
+      "and",
+      "any",
+      "are",
+      "as",
+      "beginning",
+      "building",
+      "but",
+      "by",
+      "c",
+      "classroom",
+      "coded",
+      "computers",
+      "courses",
+      "does",
+      "each",
+      "exclusively",
+      "f",
+      "field",
+      "focuses",
+      "follows",
+      "has",
+      "identifies",
+      "in",
+      "includes",
+      "instruction",
+      "interaction",
+      "is",
+      "location",
+      "means",
+      "meet",
+      "meetings",
+      "n",
+      "no",
+      "not",
+      "note",
+      "occurs",
+      "of",
+      "offer",
+      "offered",
+      "offers",
+      "on",
+      "or",
+      "other",
+      "p",
+      "partial",
+      "physical",
+      "primarily",
+      "primary",
+      "program",
+      "replaced",
+      "retired",
+      "school",
+      "separated",
+      "some",
+      "students",
+      "systematic",
+      "teachers",
+      "technologies",
+      "telecommunications",
+      "the",
+      "this",
+      "through",
+      "time",
+      "type",
+      "v",
+      "value",
+      "values",
+      "via",
+      "virtual",
+      "was",
+      "where",
+      "which",
+      "with",
+      "year"
+     ],
+     "Website": [
+      "address",
+      "administrative",
+      "authority",
+      "district",
+      "of",
+      "or",
+      "school",
+      "the",
+      "website"
+     ],
+     "Zip": [
+      "zip"
+     ]
+    },
+    "columns": [
+     {
+      "name": "CDSCode",
+      "type": "TEXT"
+     },
+     {
+      "name": "NCESDist",
+      "type": "TEXT"
+     },
+     {
+      "name": "NCESSchool",
+      "type": "TEXT"
+     },
+     {
+      "name": "StatusType",
+      "type": "TEXT"
+     },
+     {
+      "name": "County",
+      "type": "TEXT"
+     },
+     {
+      "name": "District",
+      "type": "TEXT"
+     },
+     {
+      "name": "School",
+      "type": "TEXT"
+     },
+     {
+      "name": "Street",
+      "type": "TEXT"
+     },
+     {
+      "name": "StreetAbr",
+      "type": "TEXT"
+     },
+     {
+      "name": "City",
+      "type": "TEXT"
+     },
+     {
+      "name": "Zip",
+      "type": "TEXT"
+     },
+     {
+      "name": "State",
+      "type": "TEXT"
+     },
+     {
+      "name": "MailStreet",
+      "type": "TEXT"
+     },
+     {
+      "name": "MailStrAbr",
+      "type": "TEXT"
+     },
+     {
+      "name": "MailCity",
+      "type": "TEXT"
+     },
+     {
+      "name": "MailZip",
+      "type": "TEXT"
+     },
+     {
+      "name": "MailState",
+      "type": "TEXT"
+     },
+     {
+      "name": "Phone",
+      "type": "TEXT"
+     },
+     {
+      "name": "Ext",
+      "type": "TEXT"
+     },
+     {
+      "name": "Website",
+      "type": "TEXT"
+     },
+     {
+      "name": "OpenDate",
+      "type": "DATE"
+     },
+     {
+      "name": "ClosedDate",
+      "type": "DATE"
+     },
+     {
+      "name": "Charter",
+      "type": "INTEGER"
+     },
+     {
+      "name": "CharterNum",
+      "type": "TEXT"
+     },
+     {
+      "name": "FundingType",
+      "type": "TEXT"
+     },
+     {
+      "name": "DOC",
+      "type": "TEXT"
+     },
+     {
+      "name": "DOCType",
+      "type": "TEXT"
+     },
+     {
+      "name": "SOC",
+      "type": "TEXT"
+     },
+     {
+      "name": "SOCType",
+      "type": "TEXT"
+     },
+     {
+      "name": "EdOpsCode",
+      "type": "TEXT"
+     },
+     {
+      "name": "EdOpsName",
+      "type": "TEXT"
+     },
+     {
+      "name": "EILCode",
+      "type": "TEXT"
+     },
+     {
+      "name": "EILName",
+      "type": "TEXT"
+     },
+     {
+      "name": "GSoffered",
+      "type": "TEXT"
+     },
+     {
+      "name": "GSserved",
+      "type": "TEXT"
+     },
+     {
+      "name": "Virtual",
+      "type": "TEXT"
+     },
+     {
+      "name": "Magnet",
+      "type": "INTEGER"
+     },
+     {
+      "name": "Latitude",
+      "type": "REAL"
+     },
+     {
+      "name": "Longitude",
+      "type": "REAL"
+     },
+     {
+      "name": "AdmFName1",
+      "type": "TEXT"
+     },
+     {
+      "name": "AdmLName1",
+      "type": "TEXT"
+     },
+     {
+      "name": "AdmEmail1",
+      "type": "TEXT"
+     },
+     {
+      "name": "AdmFName2",
+      "type": "TEXT"
+     },
+     {
+      "name": "AdmLName2",
+      "type": "TEXT"
+     },
+     {
+      "name": "AdmEmail2",
+      "type": "TEXT"
+     },
+     {
+      "name": "AdmFName3",
+      "type": "TEXT"
+     },
+     {
+      "name": "AdmLName3",
+      "type": "TEXT"
+     },
+     {
+      "name": "AdmEmail3",
+      "type": "TEXT"
+     },
+     {
+      "name": "LastUpdate",
+      "type": "DATE"
+     }
+    ],
+    "description": "",
+    "fks": [],
+    "name_tokens": [
+     "schools"
+    ],
+    "pk": "CDSCode"
+   }
+  }
+ },
+ "financial": {
+  "tables": {
+   "account": {
+    "column_index": {
+     "account_id": [
+      "account",
+      "id",
+      "of",
+      "the"
+     ],
+     "date": [
+      "account",
+      "creation",
+      "date",
+      "form",
+      "in",
+      "of",
+      "the",
+      "yymmdd"
+     ],
+     "district_id": [
+      "branch",
+      "district",
+      "id",
+      "location",
+      "of"
+     ],
+     "frequency": [
+      "acount",
+      "after",
+      "for",
+      "frequency",
+      "issuance",
+      "mesicne",
+      "monthly",
+      "obratu",
+      "of",
+      "po",
+      "poplatek",
+      "stands",
+      "the",
+      "transaction",
+      "tydne",
+      "weekly"
+     ]
+    },
+    "columns": [
+     {
+      "name": "account_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "district_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "frequency",
+      "type": "TEXT"
+     },
+     {
+      "name": "date",
+      "type": "DATE"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "district_id",
+      "ref_col": "district_id",
+      "ref_table": "district"
+     }
+    ],
+    "name_tokens": [
+     "account"
+    ],
+    "pk": "account_id"
+   },
+   "card": {
+    "column_index": {
+     "card_id": [
+      "card",
+      "credit",
+      "id",
+      "number",
+      "of"
+     ],
+     "disp_id": [
+      "disp",
+      "disposition",
+      "id"
+     ],
+     "issued": [
+      "card",
+      "credit",
+      "date",
+      "form",
+      "in",
+      "issued",
+      "the",
+      "when",
+      "yymmdd"
+     ],
+     "type": [
+      "card",
+      "class",
+      "classic",
+      "credit",
+      "gold",
+      "high",
+      "junior",
+      "level",
+      "of",
+      "standard",
+      "type"
+     ]
+    },
+    "columns": [
+     {
+      "name": "card_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "disp_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "type",
+      "type": "TEXT"
+     },
+     {
+      "name": "issued",
+      "type": "DATE"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "disp_id",
+      "ref_col": "disp_id",
+      "ref_table": "disp"
+     }
+    ],
+    "name_tokens": [
+     "card"
+    ],
+    "pk": "card_id"
+   },
+   "client": {
+    "column_index": {
+     "birth_date": [
+      "birth",
+      "date"
+     ],
+     "client_id": [
+      "client",
+      "id",
+      "number",
+      "the",
+      "unique"
+     ],
+     "district_id": [
+      "branch",
+      "district",
+      "id",
+      "location",
+      "of"
+     ],
+     "gender": [
+      "f",
+      "female",
+      "gender",
+      "m",
+      "male"
+     ]
+    },
+    "columns": [
+     {
+      "name": "client_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "gender",
+      "type": "TEXT"
+     },
+     {
+      "name": "birth_date",
+      "type": "DATE"
+     },
+     {
+      "name": "district_id",
+      "type": "INTEGER"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "district_id",
+      "ref_col": "district_id",
+      "ref_table": "district"
+     }
+    ],
+    "name_tokens": [
+     "client"
+    ],
+    "pk": "client_id"
+   },
+   "disp": {
+    "column_index": {
+     "account_id": [
+      "account",
+      "id",
+      "number",
+      "of"
+     ],
+     "client_id": [
+      "client",
+      "id",
+      "number",
+      "of"
+     ],
+     "disp_id": [
+      "disp",
+      "disposition",
+      "id",
+      "identifying",
+      "number",
+      "of",
+      "record",
+      "row",
+      "this",
+      "unique"
+     ],
+     "type": [
+      "account",
+      "apply",
+      "can",
+      "disponent",
+      "disposition",
+      "for",
+      "have",
+      "issue",
+      "loans",
+      "of",
+      "only",
+      "or",
+      "orders",
+      "owner",
+      "permanent",
+      "right",
+      "the",
+      "to",
+      "type",
+      "user"
+     ]
+    },
+    "columns": [
+     {
+      "name": "disp_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "client_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "account_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "type",
+      "type": "TEXT"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "account_id",
+      "ref_col": "account_id",
+      "ref_table": "account"
+     },
+     {
+      "from_col": "client_id",
+      "ref_col": "client_id",
+      "ref_table": "client"
+     }
+    ],
+    "name_tokens": [
+     "disp"
+    ],
+    "pk": "disp_id"
+   },
+   "district": {
+    "column_index": {
+     "A10": [
+      "a10",
+      "inhabitants",
+      "of",
+      "ratio",
+      "urban"
+     ],
+     "A11": [
+      "a11",
+      "average",
+      "salary"
+     ],
+     "A12": [
+      "1995",
+      "a12",
+      "rate",
+      "unemployment"
+     ],
+     "A13": [
+      "1996",
+      "a13",
+      "rate",
+      "unemployment"
+     ],
+     "A14": [
+      "1000",
+      "a14",
+      "entrepreneurs",
+      "inhabitants",
+      "no",
+      "of",
+      "per"
+     ],
+     "A15": [
+      "1995",
+      "a15",
+      "committed",
+      "crimes",
+      "no",
+      "of"
+     ],
+     "A16": [
+      "1996",
+      "a16",
+      "committed",
+      "crimes",
+      "no",
+      "of"
+     ],
+     "A2": [
+      "a2",
+      "district",
+      "name"
+     ],
+     "A3": [
+      "a3",
+      "region"
+     ],
+     "A4": [
+      "a4",
+      "inhabitants",
+      "number",
+      "of"
+     ],
+     "A5": [
+      "499",
+      "a5",
+      "district",
+      "inhabitants",
+      "municipalities",
+      "municipality",
+      "no",
+      "of",
+      "region",
+      "with"
+     ],
+     "A6": [
+      "1999",
+      "500",
+      "a6",
+      "district",
+      "inhabitants",
+      "municipalities",
+      "municipality",
+      "no",
+      "of",
+      "region",
+      "with"
+     ],
+     "A7": [
+      "2000",
+      "9999",
+      "a7",
+      "district",
+      "inhabitants",
+      "municipalities",
+      "municipality",
+      "no",
+      "of",
+      "region",
+      "with"
+     ],
+     "A8": [
+      "10000",
+      "a8",
+      "district",
+      "inhabitants",
+      "municipalities",
+      "municipality",
+      "no",
+      "of",
+      "region",
+      "with"
+     ],
+     "A9": [
+      "a9",
+      "not",
+      "useful"
+     ],
+     "district_id": [
+      "branch",
+      "district",
+      "id",
+      "location",
+      "of"
+     ]
+    },
+    "columns": [
+     {
+      "name": "district_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "A2",
+      "type": "TEXT"
+     },
+     {
+      "name": "A3",
+      "type": "TEXT"
+     },
+     {
+      "name": "A4",
+      "type": "TEXT"
+     },
+     {
+      "name": "A5",
+      "type": "TEXT"
+     },
+     {
+      "name": "A6",
+      "type": "TEXT"
+     },
+     {
+      "name": "A7",
+      "type": "TEXT"
+     },
+     {
+      "name": "A8",
+      "type": "INTEGER"
+     },
+     {
+      "name": "A9",
+      "type": "INTEGER"
+     },
+     {
+      "name": "A10",
+      "type": "REAL"
+     },
+     {
+      "name": "A11",
+      "type": "INTEGER"
+     },
+     {
+      "name": "A12",
+      "type": "REAL"
+     },
+     {
+      "name": "A13",
+      "type": "REAL"
+     },
+     {
+      "name": "A14",
+      "type": "INTEGER"
+     },
+     {
+      "name": "A15",
+      "type": "INTEGER"
+     },
+     {
+      "name": "A16",
+      "type": "INTEGER"
+     }
+    ],
+    "description": "",
+    "fks": [],
+    "name_tokens": [
+     "district"
+    ],
+    "pk": "district_id"
+   },
+   "loan": {
+    "column_index": {
+     "account_id": [
+      "account",
+      "id",
+      "identifying",
+      "number",
+      "the"
+     ],
+     "amount": [
+      "amount",
+      "approved",
+      "dollar",
+      "unit",
+      "us"
+     ],
+     "date": [
+      "approved",
+      "date",
+      "is",
+      "loan",
+      "the",
+      "when"
+     ],
+     "duration": [
+      "duration",
+      "loan",
+      "month",
+      "unit"
+     ],
+     "loan_id": [
+      "data",
+      "id",
+      "identifying",
+      "loan",
+      "number",
+      "the"
+     ],
+     "payments": [
+      "month",
+      "monthly",
+      "payments",
+      "unit"
+     ],
+     "status": [
+      "a",
+      "b",
+      "c",
+      "client",
+      "contract",
+      "d",
+      "debt",
+      "far",
+      "finished",
+      "for",
+      "in",
+      "loan",
+      "no",
+      "not",
+      "ok",
+      "paid",
+      "problems",
+      "repayment",
+      "running",
+      "so",
+      "stands",
+      "status"
+     ]
+    },
+    "columns": [
+     {
+      "name": "loan_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "account_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "date",
+      "type": "DATE"
+     },
+     {
+      "name": "amount",
+      "type": "INTEGER"
+     },
+     {
+      "name": "duration",
+      "type": "INTEGER"
+     },
+     {
+      "name": "payments",
+      "type": "REAL"
+     },
+     {
+      "name": "status",
+      "type": "TEXT"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "account_id",
+      "ref_col": "account_id",
+      "ref_table": "account"
+     }
+    ],
+    "name_tokens": [
+     "loan"
+    ],
+    "pk": "loan_id"
+   },
+   "order": {
+    "column_index": {
+     "account_id": [
+      "account",
+      "id",
+      "number",
+      "of"
+     ],
+     "account_to": [
+      "account",
+      "bank",
+      "code",
+      "each",
+      "has",
+      "letter",
+      "of",
+      "recipient",
+      "the",
+      "to",
+      "two",
+      "unique"
+     ],
+     "amount": [
+      "amount",
+      "debited"
+     ],
+     "bank_to": [
+      "bank",
+      "of",
+      "recipient",
+      "the",
+      "to"
+     ],
+     "k_symbol": [
+      "characterization",
+      "for",
+      "household",
+      "insurance",
+      "k",
+      "leasing",
+      "loan",
+      "of",
+      "payment",
+      "pojistne",
+      "purpose",
+      "sipo",
+      "stands",
+      "symbol",
+      "the",
+      "uver"
+     ],
+     "order_id": [
+      "id",
+      "identifying",
+      "order",
+      "the",
+      "unique"
+     ]
+    },
+    "columns": [
+     {
+      "name": "order_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "account_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "bank_to",
+      "type": "TEXT"
+     },
+     {
+      "name": "account_to",
+      "type": "INTEGER"
+     },
+     {
+      "name": "amount",
+      "type": "REAL"
+     },
+     {
+      "name": "k_symbol",
+      "type": "TEXT"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "account_id",
+      "ref_col": "account_id",
+      "ref_table": "account"
+     }
+    ],
+    "name_tokens": [
+     "order"
+    ],
+    "pk": "order_id"
+   },
+   "trans": {
+    "column_index": {
+     "account": [
+      "account",
+      "of",
+      "partner",
+      "the"
+     ],
+     "account_id": [
+      "account",
+      "id"
+     ],
+     "amount": [
+      "amount",
+      "money",
+      "of",
+      "unit",
+      "usd"
+     ],
+     "balance": [
+      "after",
+      "balance",
+      "transaction",
+      "unit",
+      "usd"
+     ],
+     "bank": [
+      "bank",
+      "code",
+      "each",
+      "has",
+      "letter",
+      "of",
+      "partner",
+      "the",
+      "two",
+      "unique"
+     ],
+     "date": [
+      "date",
+      "of",
+      "transaction"
+     ],
+     "k_symbol": [
+      "age",
+      "balance",
+      "characterization",
+      "credited",
+      "duchod",
+      "for",
+      "household",
+      "if",
+      "insurrance",
+      "interest",
+      "k",
+      "loan",
+      "negative",
+      "of",
+      "old",
+      "payment",
+      "pension",
+      "pojistne",
+      "sanction",
+      "sankc",
+      "sipo",
+      "sluzby",
+      "stands",
+      "statement",
+      "symbol",
+      "the",
+      "transaction",
+      "urok",
+      "uver"
+     ],
+     "operation": [
+      "another",
+      "bank",
+      "card",
+      "cash",
+      "collection",
+      "credit",
+      "from",
+      "in",
+      "kartou",
+      "mode",
+      "na",
+      "of",
+      "operation",
+      "prevod",
+      "remittance",
+      "to",
+      "transaction",
+      "ucet",
+      "uctu",
+      "vklad",
+      "vyber",
+      "withdrawal",
+      "z"
+     ],
+     "trans_id": [
+      "id",
+      "trans",
+      "transaction"
+     ],
+     "type": [
+      "credit",
+      "for",
+      "prijem",
+      "stands",
+      "transaction",
+      "type",
+      "vydaj",
+      "withdrawal"
+     ]
+    },
+    "columns": [
+     {
+      "name": "trans_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "account_id",
+      "type": "INTEGER"
+     },
+     {
+      "name": "date",
+      "type": "DATE"
+     },
+     {
+      "name": "type",
+      "type": "TEXT"
+     },
+     {
+      "name": "operation",
+      "type": "TEXT"
+     },
+     {
+      "name": "amount",
+      "type": "INTEGER"
+     },
+     {
+      "name": "balance",
+      "type": "INTEGER"
+     },
+     {
+      "name": "k_symbol",
+      "type": "TEXT"
+     },
+     {
+      "name": "bank",
+      "type": "TEXT"
+     },
+     {
+      "name": "account",
+      "type": "INTEGER"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "account_id",
+      "ref_col": "account_id",
+      "ref_table": "account"
+     }
+    ],
+    "name_tokens": [
+     "trans"
+    ],
+    "pk": "trans_id"
+   }
+  }
+ },
+ "thrombosis_prediction": {
+  "tables": {
+   "Examination": {
+    "column_index": {
+     "ANA": [
+      "ana",
+      "anti",
+      "antibody",
+      "concentration",
+      "nucleus"
+     ],
+     "ANA Pattern": [
+      "ana",
+      "examination",
+      "in",
+      "observed",
+      "of",
+      "pattern",
+      "sheet",
+      "the"
+     ],
+     "Diagnosis": [
+      "diagnosis",
+      "disease",
+      "names"
+     ],
+     "Examination Date": [
+      "date",
+      "examination"
+     ],
+     "ID": [
+      "id",
+      "identification",
+      "of",
+      "patient",
+      "the"
+     ],
+     "KCT": [
+      "coagulation",
+      "degree",
+      "kct",
+      "measure",
+      "negative",
+      "of",
+      "positive"
+     ],
+     "LAC": [
+      "coagulation",
+      "degree",
+      "lac",
+      "measure",
+      "negative",
+      "of",
+      "positive"
+     ],
+     "RVVT": [
+      "coagulation",
+      "degree",
+      "measure",
+      "negative",
+      "of",
+      "positive",
+      "rvvt"
+     ],
+     "Symptoms": [
+      "observed",
+      "other",
+      "symptoms"
+     ],
+     "Thrombosis": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "degree",
+      "mild",
+      "most",
+      "negative",
+      "no",
+      "of",
+      "one",
+      "positive",
+      "severe",
+      "the",
+      "thrombosis"
+     ],
+     "aCL IgA": [
+      "a",
+      "anti",
+      "antibody",
+      "cardiolipin",
+      "cl",
+      "concentration",
+      "ig"
+     ],
+     "aCL IgG": [
+      "a",
+      "anti",
+      "antibody",
+      "cardiolipin",
+      "cl",
+      "concentration",
+      "g",
+      "ig"
+     ],
+     "aCL IgM": [
+      "a",
+      "anti",
+      "antibody",
+      "cardiolipin",
+      "cl",
+      "concentration",
+      "ig",
+      "m"
+     ]
+    },
+    "columns": [
+     {
+      "name": "ID",
+      "type": "INTEGER"
+     },
+     {
+      "name": "Examination Date",
+      "type": "DATE"
+     },
+     {
+      "name": "aCL IgG",
+      "type": "REAL"
+     },
+     {
+      "name": "aCL IgM",
+      "type": "REAL"
+     },
+     {
+      "name": "ANA",
+      "type": "INTEGER"
+     },
+     {
+      "name": "ANA Pattern",
+      "type": "TEXT"
+     },
+     {
+      "name": "aCL IgA",
+      "type": "INTEGER"
+     },
+     {
+      "name": "Diagnosis",
+      "type": "TEXT"
+     },
+     {
+      "name": "KCT",
+      "type": "TEXT"
+     },
+     {
+      "name": "RVVT",
+      "type": "TEXT"
+     },
+     {
+      "name": "LAC",
+      "type": "TEXT"
+     },
+     {
+      "name": "Symptoms",
+      "type": "TEXT"
+     },
+     {
+      "name": "Thrombosis",
+      "type": "INTEGER"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "ID",
+      "ref_col": "ID",
+      "ref_table": "Patient"
+     }
+    ],
+    "name_tokens": [
+     "examination"
+    ],
+    "pk": null
+   },
+   "Laboratory": {
+    "column_index": {
+     "ALB": [
+      "3",
+      "5",
+      "alb",
+      "albumin",
+      "n",
+      "normal",
+      "range"
+     ],
+     "ALP": [
+      "300",
+      "alkaliphophatase",
+      "alp",
+      "n",
+      "normal",
+      "range"
+     ],
+     "APTT": [
+      "45",
+      "activated",
+      "aptt",
+      "n",
+      "normal",
+      "partial",
+      "prothrombin",
+      "range",
+      "time"
+     ],
+     "C3": [
+      "3",
+      "35",
+      "c3",
+      "complement",
+      "n",
+      "normal",
+      "range"
+     ],
+     "C4": [
+      "10",
+      "4",
+      "c4",
+      "complement",
+      "n",
+      "normal",
+      "range"
+     ],
+     "CENTROMEA": [
+      "anti",
+      "centromea",
+      "centromere",
+      "n",
+      "normal",
+      "range"
+     ],
+     "CPK": [
+      "250",
+      "cpk",
+      "creatinine",
+      "n",
+      "normal",
+      "phosphokinase",
+      "range"
+     ],
+     "CRE": [
+      "1",
+      "5",
+      "cre",
+      "creatinine",
+      "n",
+      "normal",
+      "range"
+     ],
+     "CRP": [
+      "0",
+      "1",
+      "c",
+      "crp",
+      "n",
+      "normal",
+      "or",
+      "protein",
+      "range",
+      "reactive"
+     ],
+     "DNA": [
+      "8",
+      "anti",
+      "dna",
+      "n",
+      "normal",
+      "range"
+     ],
+     "DNA-II": [
+      "8",
+      "anti",
+      "dna",
+      "ii",
+      "n",
+      "normal",
+      "range"
+     ],
+     "Date": [
+      "date",
+      "laboratory",
+      "of",
+      "tests",
+      "the",
+      "yymmdd"
+     ],
+     "FG": [
+      "150",
+      "450",
+      "fg",
+      "fibrinogen",
+      "n",
+      "normal",
+      "range"
+     ],
+     "GLU": [
+      "180",
+      "blood",
+      "glu",
+      "glucose",
+      "n",
+      "normal",
+      "range"
+     ],
+     "GOT": [
+      "60",
+      "ast",
+      "glutamic",
+      "got",
+      "n",
+      "normal",
+      "oxaloacetic",
+      "range",
+      "transaminase"
+     ],
+     "GPT": [
+      "60",
+      "alt",
+      "glutamic",
+      "gpt",
+      "n",
+      "normal",
+      "pyruvic",
+      "range",
+      "transaminase"
+     ],
+     "HCT": [
+      "29",
+      "52",
+      "hct",
+      "hematoclit",
+      "n",
+      "normal",
+      "range"
+     ],
+     "HGB": [
+      "10",
+      "17",
+      "hemoglobin",
+      "hgb",
+      "n",
+      "normal",
+      "range"
+     ],
+     "ID": [
+      "id",
+      "identification",
+      "of",
+      "patient",
+      "the"
+     ],
+     "IGA": [
+      "500",
+      "80",
+      "a",
+      "ig",
+      "iga",
+      "n",
+      "normal",
+      "range"
+     ],
+     "IGG": [
+      "2000",
+      "900",
+      "g",
+      "ig",
+      "igg",
+      "n",
+      "normal",
+      "range"
+     ],
+     "IGM": [
+      "40",
+      "400",
+      "ig",
+      "igm",
+      "m",
+      "n",
+      "normal",
+      "range"
+     ],
+     "LDH": [
+      "500",
+      "dehydrogenase",
+      "lactate",
+      "ldh",
+      "n",
+      "normal",
+      "range"
+     ],
+     "PIC": [
+      "pic"
+     ],
+     "PLT": [
+      "100",
+      "400",
+      "n",
+      "normal",
+      "platelet",
+      "plt",
+      "range"
+     ],
+     "PT": [
+      "14",
+      "n",
+      "normal",
+      "prothrombin",
+      "pt",
+      "range",
+      "time"
+     ],
+     "RA": [
+      "factor",
+      "n",
+      "normal",
+      "ra",
+      "range",
+      "rhuematoid"
+     ],
+     "RBC": [
+      "0",
+      "3",
+      "5",
+      "6",
+      "blood",
+      "cell",
+      "n",
+      "normal",
+      "range",
+      "rbc",
+      "red"
+     ],
+     "RF": [
+      "20",
+      "n",
+      "normal",
+      "raha",
+      "range",
+      "rf"
+     ],
+     "RNP": [
+      "anti",
+      "n",
+      "normal",
+      "protein",
+      "range",
+      "ribonuclear",
+      "rnp"
+     ],
+     "SC170": [
+      "anti",
+      "n",
+      "normal",
+      "range",
+      "sc170",
+      "scl70"
+     ],
+     "SM": [
+      "anti",
+      "n",
+      "normal",
+      "range",
+      "sm"
+     ],
+     "SSA": [
+      "anti",
+      "n",
+      "normal",
+      "range",
+      "ssa"
+     ],
+     "SSB": [
+      "anti",
+      "n",
+      "normal",
+      "range",
+      "ssb"
+     ],
+     "T-BIL": [
+      "0",
+      "2",
+      "bil",
+      "bilirubin",
+      "n",
+      "normal",
+      "range",
+      "t",
+      "total"
+     ],
+     "T-CHO": [
+      "250",
+      "cho",
+      "cholesterol",
+      "n",
+      "normal",
+      "range",
+      "t",
+      "total"
+     ],
+     "TAT": [
+      "tat"
+     ],
+     "TAT2": [
+      "tat2"
+     ],
+     "TG": [
+      "200",
+      "n",
+      "normal",
+      "range",
+      "tg",
+      "triglyceride"
+     ],
+     "TP": [
+      "0",
+      "5",
+      "6",
+      "8",
+      "n",
+      "normal",
+      "protein",
+      "range",
+      "total",
+      "tp"
+     ],
+     "U-PRO": [
+      "0",
+      "30",
+      "n",
+      "normal",
+      "pro",
+      "proteinuria",
+      "range",
+      "u"
+     ],
+     "UA": [
+      "0",
+      "5",
+      "6",
+      "8",
+      "acid",
+      "female",
+      "male",
+      "n",
+      "normal",
+      "range",
+      "ua",
+      "uric"
+     ],
+     "UN": [
+      "30",
+      "n",
+      "nitrogen",
+      "normal",
+      "range",
+      "un",
+      "urea"
+     ],
+     "WBC": [
+      "0",
+      "3",
+      "5",
+      "9",
+      "blood",
+      "cell",
+      "n",
+      "normal",
+      "range",
+      "wbc",
+      "white"
+     ]
+    },
+    "columns": [
+     {
+      "name": "ID",
+      "type": "INTEGER"
+     },
+     {
+      "name": "Date",
+      "type": "DATE"
+     },
+     {
+      "name": "GOT",
+      "type": "INTEGER"
+     },
+     {
+      "name": "GPT",
+      "type": "INTEGER"
+     },
+     {
+      "name": "LDH",
+      "type": "INTEGER"
+     },
+     {
+      "name": "ALP",
+      "type": "INTEGER"
+     },
+     {
+      "name": "TP",
+      "type": "REAL"
+     },
+     {
+      "name": "ALB",
+      "type": "REAL"
+     },
+     {
+      "name": "UA",
+      "type": "REAL"
+     },
+     {
+      "name": "UN",
+      "type": "INTEGER"
+     },
+     {
+      "name": "CRE",
+      "type": "REAL"
+     },
+     {
+      "name": "T-BIL",
+      "type": "REAL"
+     },
+     {
+      "name": "T-CHO",
+      "type": "INTEGER"
+     },
+     {
+      "name": "TG",
+      "type": "INTEGER"
+     },
+     {
+      "name": "CPK",
+      "type": "INTEGER"
+     },
+     {
+      "name": "GLU",
+      "type": "INTEGER"
+     },
+     {
+      "name": "WBC",
+      "type": "REAL"
+     },
+     {
+      "name": "RBC",
+      "type": "REAL"
+     },
+     {
+      "name": "HGB",
+      "type": "REAL"
+     },
+     {
+      "name": "HCT",
+      "type": "REAL"
+     },
+     {
+      "name": "PLT",
+      "type": "INTEGER"
+     },
+     {
+      "name": "PT",
+      "type": "REAL"
+     },
+     {
+      "name": "APTT",
+      "type": "INTEGER"
+     },
+     {
+      "name": "FG",
+      "type": "REAL"
+     },
+     {
+      "name": "PIC",
+      "type": "INTEGER"
+     },
+     {
+      "name": "TAT",
+      "type": "INTEGER"
+     },
+     {
+      "name": "TAT2",
+      "type": "INTEGER"
+     },
+     {
+      "name": "U-PRO",
+      "type": "TEXT"
+     },
+     {
+      "name": "IGG",
+      "type": "INTEGER"
+     },
+     {
+      "name": "IGA",
+      "type": "INTEGER"
+     },
+     {
+      "name": "IGM",
+      "type": "INTEGER"
+     },
+     {
+      "name": "CRP",
+      "type": "TEXT"
+     },
+     {
+      "name": "RA",
+      "type": "TEXT"
+     },
+     {
+      "name": "RF",
+      "type": "TEXT"
+     },
+     {
+      "name": "C3",
+      "type": "INTEGER"
+     },
+     {
+      "name": "C4",
+      "type": "INTEGER"
+     },
+     {
+      "name": "RNP",
+      "type": "TEXT"
+     },
+     {
+      "name": "SM",
+      "type": "TEXT"
+     },
+     {
+      "name": "SC170",
+      "type": "TEXT"
+     },
+     {
+      "name": "SSA",
+      "type": "TEXT"
+     },
+     {
+      "name": "SSB",
+      "type": "TEXT"
+     },
+     {
+      "name": "CENTROMEA",
+      "type": "TEXT"
+     },
+     {
+      "name": "DNA",
+      "type": "TEXT"
+     },
+     {
+      "name": "DNA-II",
+      "type": "INTEGER"
+     }
+    ],
+    "description": "",
+    "fks": [
+     {
+      "from_col": "ID",
+      "ref_col": "ID",
+      "ref_table": "Patient"
+     }
+    ],
+    "name_tokens": [
+     "laboratory"
+    ],
+    "pk": "Date"
+   },
+   "Patient": {
+    "column_index": {
+     "Admission": [
+      "admission",
+      "admitted",
+      "at",
+      "clinic",
+      "followed",
+      "hospital",
+      "or",
+      "outpatient",
+      "patient",
+      "the",
+      "to",
+      "was"
+     ],
+     "Birthday": [
+      "birthday"
+     ],
+     "Description": [
+      "a",
+      "data",
+      "date",
+      "description",
+      "empty",
+      "first",
+      "not",
+      "null",
+      "or",
+      "patient",
+      "recorded",
+      "the",
+      "was",
+      "when"
+     ],
+     "Diagnosis": [
+      "diagnosis",
+      "disease",
+      "names"
+     ],
+     "First Date": [
+      "a",
+      "came",
+      "date",
+      "first",
+      "hospital",
+      "patient",
+      "the",
+      "to",
+      "when"
+     ],
+     "ID": [
+      "id",
+      "identification",
+      "of",
+      "patient",
+      "the"
+     ],
+     "SEX": [
+      "f",
+      "female",
+      "m",
+      "male",
+      "sex"
+     ]
+    },
+    "columns": [
+     {
+      "name": "ID",
+      "type": "INTEGER"
+     },
+     {
+      "name": "SEX",
+      "type": "TEXT"
+     },
+     {
+      "name": "Birthday",
+      "type": "DATE"
+     },
+     {
+      "name": "Description",
+      "type": "DATE"
+     },
+     {
+      "name": "First Date",
+      "type": "DATE"
+     },
+     {
+      "name": "Admission",
+      "type": "TEXT"
+     },
+     {
+      "name": "Diagnosis",
+      "type": "TEXT"
+     }
+    ],
+    "description": "",
+    "fks": [],
+    "name_tokens": [
+     "patient"
+    ],
+    "pk": "ID"
+   }
+  }
+ }
+}
